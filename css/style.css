@@ -4629,7 +4629,6 @@ body.boxed-layout.nice-scroll .navbar-fixed-top {
 }
 
 .footer-bottom {
-    background: url("../images/bg_661x270.jpg") top center no-repeat;
 }
 
 .mailchimp-widget {
@@ -5016,7 +5015,7 @@ div.footer .widget_product_categories ul li {
 
 .noo_social {
     text-align: center;
-    padding: 42px 0 65px;
+    padding: 0;
 }
 
 @media (max-width: 767px) {
