@@ -1,6 +1,8 @@
 (function($) {
     console.log();
     "use strict";
+    var KAMF_D_DAY = "2017-04-07 00:00:00";
+
     var nooGetViewport = function() {
         var e = window, a = "inner";
         if (!("innerWidth" in window)) {
@@ -28,6 +30,8 @@
         return result;
     };
     var nooInit = function() {
+		$("#CountDownTimer").attr("data-date", KAMF_D_DAY);
+
         var isTouch = "ontouchstart" in window;
         if (isTouch) {
             $(".carousel-inner").swipe({
