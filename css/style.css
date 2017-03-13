@@ -14015,7 +14015,7 @@ h2.events-page-title {
     cursor: pointer;
     position: relative;
     margin-bottom: 15px;
-    width: 25%;
+    width: 50%;
 }
 
 .events-metabox .shedule_date li.active .date-item,
@@ -14230,10 +14230,6 @@ h2.events-page-title {
     font-weight: 700;
     padding: 0;
     margin: 0 0 10px 0;
-}
-
-.events-metabox .schedule .shedule-date-content .speaker_item ul li .speaker_ds .meta {
-    margin-bottom: 20px;
 }
 
 .events-metabox .schedule .shedule-date-content .speaker_item ul li .speaker_ds .meta i {
