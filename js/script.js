@@ -283,6 +283,7 @@
 				var primary_color = '#f0a441';
 	
 				$("#CountDownTimer").TimeCircles({
+					"count_past_zero": false,
 					"animation": "smooth",
 					"bg_width": 1,
 					"fg_width": 0.01,
