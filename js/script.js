@@ -3,6 +3,57 @@
     "use strict";
     var KAMF_D_DAY = "2017-04-07 00:00:00";
 
+    var INFORMATION = [{
+        "schedules_image": "images/speaker/speaker_95x95.jpg",
+		"artists_image": "images/event/event_1170x350.jpg",
+        "start_time": "시작시간",
+        "end_time": "종료시간",
+        "location": "위치",
+        "external_link": "http://groov.fm/",
+        "name": "가수A",
+        "hit_song" : "대표곡",
+        "day": "Day1"
+    },{
+        "schedules_image": "images/speaker/speaker_95x95.jpg",
+		"artists_image": "images/event/event_1170x350.jpg",
+        "start_time": "시작시간",
+        "end_time": "종료시간",
+        "location": "위치",
+        "external_link": "http://groov.fm/",
+        "name": "가수B",
+        "hit_song" : "대표곡",
+        "day": "Day2"
+    }];
+
+    var insertSchedulesInfomation = function(infos) {
+        var day1 = $("#schedule-day-1");
+        var day2 = $("#schedule-day-2");
+
+        infos.forEach(function(info, index){
+        	if(info.day.toLowerCase() !== 'day1') return;
+            var current = day1.append('<li><div class="avatar"><a href="info.external_link"><img width="262" height="262" src="images/speaker/speaker_95x95.jpg" alt="speaker5" /></a></div><div class="speaker_ds"><h6><a href="info.external_link">info.name</a></h6><div class="meta clearfix"><div class="pull-left"><span class="time"><i class="fa fa-clock-o"></i><span class="tribe-event-date-start">info.start_time</span> - <span class="tribe-event-date-end">info.end_time</span> </span><span class="name"><i class="fa fa-music"></i><span>info.hit_song</span></span></div></div></div></li>').children("li").last();
+
+            current.find("a").attr('href', info.external_link);
+            current.find("img").attr("src", info.schedules_image);
+            current.find("h6 > a").html(info.name);
+            current.find(".tribe-event-date-start").html(info.start_time);
+            current.find(".tribe-event-date-end").html(info.end_time);
+            current.find(".name > span:last").html(info.hit_song);
+        });
+
+        infos.forEach(function(info, index){
+        	if(info.day.toLowerCase() !== 'day2') return;
+            var current = day2.append('<li><div class="avatar"><a href="info.external_link"><img width="262" height="262" src="images/speaker/speaker_95x95.jpg" alt="speaker5" /></a></div><div class="speaker_ds"><h6><a href="info.external_link">info.name</a></h6><div class="meta clearfix"><div class="pull-left"><span class="time"><i class="fa fa-clock-o"></i><span class="tribe-event-date-start">info.start_time</span> - <span class="tribe-event-date-end">info.end_time</span> </span><span class="name"><i class="fa fa-music"></i><span>info.hit_song</span></span></div></div></div></li>').children("li").last();
+
+            current.find("a").attr('href', info.external_link);
+            current.find("img").attr("src", info.schedules_image);
+            current.find("h6 > a").html(info.name);
+            current.find(".tribe-event-date-start").html(info.start_time);
+            current.find(".tribe-event-date-end").html(info.end_time);
+            current.find(".name > span:last").html(info.hit_song);
+        });
+    };
+
     var nooGetViewport = function() {
         var e = window, a = "inner";
         if (!("innerWidth" in window)) {
@@ -31,7 +82,8 @@
     };
     var nooInit = function() {
 		$("#CountDownTimer").attr("data-date", KAMF_D_DAY);
-
+        insertSchedulesInfomation(INFORMATION);
+        
         var isTouch = "ontouchstart" in window;
         if (isTouch) {
             $(".carousel-inner").swipe({
