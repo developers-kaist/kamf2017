@@ -54,6 +54,27 @@
         });
     };
 
+    var insertArtistsInfomation = function(infos) {
+        var list = $("#artists-information");
+
+        infos.forEach(function(info, index){
+            var count = "" + (index + 1);
+            if (count.length < 2)
+                count = "0" + count;
+
+            var current = list.append('<div class="noo-event-featured-item"><div class="sc-event-item"><div class="event-thumbnail"><a target="_blank" href="/"><img width="1600" height="800" src="images/event/event_1170x350.jpg" alt="" /></a><div class="sc-meta"><span class="sc-date"><i class="fa fa-clock-o"></i><span class="tribe-event-date-start">info.start_time</span> - <span class="tribe-event-date-end">info.end_time</span></span><i class="fa fa-map-marker"></i><span class="sc-address">info.location</span></div></div><div class="sc-event-content"><h3><a target="_blank" ref="/">info.name</a></h3><div class="bottom"><span class="count">00</span><div class="create-date"><span>info.day</span></div></div></div></div> </div>').children(".noo-event-featured-item").last();
+
+            current.find("a").attr('href', info.external_link);
+            current.find("img").attr("src", info.artists_image);
+            current.find(".tribe-event-date-start").html(info.start_time);
+            current.find(".tribe-event-date-end").html(info.end_time);
+            current.find(".sc-address").html(info.location);
+            current.find("h3 > a").html(info.name);
+            current.find(".count").html(count);
+            current.find(".create-date > span:last").html(info.day);
+        });
+    };
+
     var nooGetViewport = function() {
         var e = window, a = "inner";
         if (!("innerWidth" in window)) {
@@ -83,6 +104,7 @@
     var nooInit = function() {
 		$("#CountDownTimer").attr("data-date", KAMF_D_DAY);
         insertSchedulesInfomation(INFORMATION);
+        insertArtistsInfomation(INFORMATION);
         
         var isTouch = "ontouchstart" in window;
         if (isTouch) {
