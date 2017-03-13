@@ -216,22 +216,22 @@
 					"time": {
 						"Days": {
 							"text": "Days",
-							"color": primary_color,
+							"color": "#f91c96",
 							"show": true
 						},
 						"Hours": {
 							"text": "Hours",
-							"color": primary_color,
+							"color": "#f91c96",
 							"show": true
 						},
 						"Minutes": {
 							"text": "Minutes",
-							"color": primary_color,
+							"color": "#f91c96",
 							"show": true
 						},
 						"Seconds": {
 							"text": "Seconds",
-							"color": primary_color,
+							"color": "#f91c96",
 							"show": true
 						}
 					}

@@ -1264,7 +1264,7 @@ Theme Name: iVent
   background-image: url('../images/banner/banner_1920x1200.jpg');
 }
 .overlay_parallax {
-  background-color: rgba(55,66,67,0.9);
+  background-color: rgba(95, 0, 48, 0.40);
 }
 .noo-testimonials { 
   padding-top:80px;
@@ -1275,13 +1275,13 @@ Theme Name: iVent
   background-size:cover;
 }
 .full-background .banner-1 {
-  background-image: url('../images/banner/banner_1920x1200.jpg')
+  background-image: url('../images/main_1_lg.jpeg')
 }
 .full-background .banner-2 {
-  background-image: url('../images/banner/banner_1920x1200.jpg')
+  background-image: url('../images/main_2_lg.jpeg')
 }
 .full-background .banner-3 {
-  background-image: url('../images/banner/banner_1920x1200.jpg')
+  background-image: url('../images/main_3_lg.jpeg')
 }
 .event-bg-1 {
   background-image: url('../images/event/event_1500x1000.jpg');
