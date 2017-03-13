@@ -29,7 +29,7 @@
         "title": "KAMF (KAIST Art & Music Festival) 은 올해로 6회 째를 맞는 KAIST의 축제입니다.<br>인디 밴드들의 무대와 각종 부스, 그리고 일반인들이 꾸미는 무대인 오픈스테이지로 구성되어 있습니다.",
         "schedules": "4/7(금), 4/8(토) 이틀간 진행됩니다.<br>본 무대는 5시 부터, 부스 및 오픈스테이지는 12시부터 운영됩니다.",
         "artists" : "2017 KAMF의 무대를 봄 향기와 함께 빛내 줄 아티스트들 입니다.",
-        "gallery" : "전년도 KAMF의 현장 사진들입니다."
+        "gallery" : "생생한 KAMF의 현장을 담았습니다."
     };
 
     var insertSchedulesInfomation = function(infos) {
