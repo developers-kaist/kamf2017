@@ -11,7 +11,7 @@
         "location": "중앙무대",
         "external_link": "http://groov.fm/",
         "name": "신현희와 김루트",
-        "hit_song" : "hit_song",
+        "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=OmjN_b07syo'>오빠야</a>",
         "day": "Day1"
     },{
         "schedules_image": "images/schedule.jpeg",
@@ -21,7 +21,7 @@
         "location": "중앙무대",
         "external_link": "http://groov.fm/",
         "name": "크라잉넛",
-        "hit_song" : "hit_song",
+        "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=RgLerhyQtYM'>말달리자</a>",
         "day": "Day2"
     }];
 
