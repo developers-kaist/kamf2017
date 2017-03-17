@@ -4,24 +4,24 @@
     var KAMF_D_DAY = "2017-04-07 00:00:00";
 
     var SCHEDULES_INFORMATION = [{
-        "schedules_image": "images/speaker/speaker_95x95.jpg",
-		"artists_image": "images/event/event_1170x350.jpg",
-        "start_time": "시작시간",
-        "end_time": "종료시간",
-        "location": "위치",
+        "schedules_image": "images/schedule.jpeg",
+        "artists_image": "images/artists/2.jpeg",
+        "start_time": "6:00 pm",
+        "end_time": "7:00 pm",
+        "location": "중앙무대",
         "external_link": "http://groov.fm/",
-        "name": "가수A",
-        "hit_song" : "대표곡",
+        "name": "신현희와 김루트",
+        "hit_song" : "hit_song",
         "day": "Day1"
     },{
-        "schedules_image": "images/speaker/speaker_95x95.jpg",
-		"artists_image": "images/event/event_1170x350.jpg",
-        "start_time": "시작시간",
-        "end_time": "종료시간",
-        "location": "위치",
+        "schedules_image": "images/schedule.jpeg",
+        "artists_image": "images/artists/8.jpeg",
+        "start_time": "8:00 pm",
+        "end_time": "9:00 pm",
+        "location": "중앙무대",
         "external_link": "http://groov.fm/",
-        "name": "가수B",
-        "hit_song" : "대표곡",
+        "name": "크라잉넛",
+        "hit_song" : "hit_song",
         "day": "Day2"
     }];
 
@@ -38,7 +38,7 @@
 
         infos.forEach(function(info, index){
         	if(info.day.toLowerCase() !== 'day1') return;
-            var current = day1.append('<li><div class="avatar"><a href="info.external_link"><img width="262" height="262" src="images/speaker/speaker_95x95.jpg" alt="speaker5" /></a></div><div class="speaker_ds"><h6><a href="info.external_link">info.name</a></h6><div class="meta clearfix"><div class="pull-left"><span class="time"><i class="fa fa-clock-o"></i><span class="tribe-event-date-start">info.start_time</span> - <span class="tribe-event-date-end">info.end_time</span> </span><span class="name"><i class="fa fa-music"></i><span>info.hit_song</span></span></div></div></div></li>').children("li").last();
+            var current = day1.append('<li><div class="avatar"><a href="info.external_link"><img width="262" height="262" src="images/schedule.jpeg" alt="speaker5" /></a></div><div class="speaker_ds"><h6><a href="info.external_link">info.name</a></h6><div class="meta clearfix"><div class="pull-left"><span class="time"><i class="fa fa-clock-o"></i><span class="tribe-event-date-start">info.start_time</span> - <span class="tribe-event-date-end">info.end_time</span> </span><span class="name"><i class="fa fa-music"></i><span>info.hit_song</span></span></div></div></div></li>').children("li").last();
 
             current.find("a").attr('href', info.external_link);
             current.find("img").attr("src", info.schedules_image);
@@ -50,7 +50,7 @@
 
         infos.forEach(function(info, index){
         	if(info.day.toLowerCase() !== 'day2') return;
-            var current = day2.append('<li><div class="avatar"><a href="info.external_link"><img width="262" height="262" src="images/speaker/speaker_95x95.jpg" alt="speaker5" /></a></div><div class="speaker_ds"><h6><a href="info.external_link">info.name</a></h6><div class="meta clearfix"><div class="pull-left"><span class="time"><i class="fa fa-clock-o"></i><span class="tribe-event-date-start">info.start_time</span> - <span class="tribe-event-date-end">info.end_time</span> </span><span class="name"><i class="fa fa-music"></i><span>info.hit_song</span></span></div></div></div></li>').children("li").last();
+            var current = day2.append('<li><div class="avatar"><a href="info.external_link"><img width="262" height="262" src="images/schedule.jpeg" alt="speaker5" /></a></div><div class="speaker_ds"><h6><a href="info.external_link">info.name</a></h6><div class="meta clearfix"><div class="pull-left"><span class="time"><i class="fa fa-clock-o"></i><span class="tribe-event-date-start">info.start_time</span> - <span class="tribe-event-date-end">info.end_time</span> </span><span class="name"><i class="fa fa-music"></i><span>info.hit_song</span></span></div></div></div></li>').children("li").last();
 
             current.find("a").attr('href', info.external_link);
             current.find("img").attr("src", info.schedules_image);
