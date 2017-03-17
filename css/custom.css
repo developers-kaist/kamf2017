@@ -1275,13 +1275,24 @@ Theme Name: iVent
   background-size:cover;
 }
 .full-background .banner-1 {
-  background-image: url('../images/main_1_lg.jpeg')
-}
-.full-background .banner-2 {
-  background-image: url('../images/main_2_lg.jpeg')
-}
-.full-background .banner-3 {
-  background-image: url('../images/main_3_lg.jpeg')
+    background-image: url('../images/main_1_lg.jpeg')
+  }
+  .full-background .banner-2 {
+    background-image: url('../images/main_2_lg.jpeg')
+  }
+  .full-background .banner-3 {
+    background-image: url('../images/main_3_lg.jpeg')
+  }
+@media (max-width: 767px) {
+  .full-background .banner-1 {
+    background-image: url('../images/main_1_sm.jpeg')
+  }
+  .full-background .banner-2 {
+    background-image: url('../images/main_2_sm.jpeg')
+  }
+  .full-background .banner-3 {
+    background-image: url('../images/main_3_sm.jpeg')
+  }
 }
 .event-bg-1 {
   background-image: url('../images/event/event_1500x1000.jpg');
