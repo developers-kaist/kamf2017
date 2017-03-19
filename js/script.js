@@ -21,7 +21,7 @@
         "location": "중앙무대",
         "external_link": "http://groov.fm/",
         "name": "녹스",
-        "hit_song" : "hit_song",
+        "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=wfyYh3QEVtw'>Tonight</a>",
         "day": "Day2"
     },{
         "schedules_image": "images/schedule.jpeg",
@@ -31,7 +31,7 @@
         "location": "중앙무대",
         "external_link": "http://groov.fm/",
         "name": "로맨틱 펀치",
-        "hit_song" : "hit_song",
+        "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=OsGCxI6l5T8'>몽유병</a>",
         "day": "Day2"
     },{
         "schedules_image": "images/schedule.jpeg",
@@ -41,7 +41,7 @@
         "location": "중앙무대",
         "external_link": "http://groov.fm/",
         "name": "넬",
-        "hit_song" : "hit_song",
+        "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=83IfZhO4Pd0'>기억을 걷는 시간</a>",
         "day": "Day2"
     },{
         "schedules_image": "images/schedule.jpeg",
