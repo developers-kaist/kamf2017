@@ -5,11 +5,21 @@
 
     var SCHEDULES_INFORMATION = [{
         "schedules_image": "images/schedule.jpeg",
+        "artists_image": "images/artists/1.jpeg",
+        "start_time": "5:00 pm",
+        "end_time": "6:00 pm",
+        "location": "중앙무대",
+        "external_link": "http://groov.fm/ch/KAMF2017-Adios-audio",
+        "name": "아디오스오디오",
+        "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=9qnyGaT9gv8'>밤밤밤</a>",
+        "day": "Day1"
+    },{
+        "schedules_image": "images/schedule.jpeg",
         "artists_image": "images/artists/2.jpeg",
         "start_time": "6:00 pm",
         "end_time": "7:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/",
+        "external_link": "http://groov.fm/ch/KAMF2017-SEENROOT",
         "name": "신현희와 김루트",
         "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=OmjN_b07syo'>오빠야</a>",
         "day": "Day1"
@@ -19,9 +29,9 @@
         "start_time": "7:00 pm",
         "end_time": "8:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/",
+        "external_link": "http://groov.fm/ch/KAMF2017-The-VANE",
         "name": "더 베인",
-        "hit_song" : "hit_song",
+        "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=V80zsb8Az9Y'>Identity</a>",
         "day": "Day1"
     },{
         "schedules_image": "images/schedule.jpeg",
@@ -29,9 +39,9 @@
         "start_time": "8:00 pm",
         "end_time": "9:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/",
+        "external_link": "http://groov.fm/ch/KAMF2017-Bolbbalgan4",
         "name": "볼빨간 사춘기",
-        "hit_song" : "hit_song",
+        "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=9U8uA702xrE'>우주를 줄게</a>",
         "day": "Day1"
     },{
         "schedules_image": "images/schedule.jpeg",
@@ -39,7 +49,7 @@
         "start_time": "5:00 pm",
         "end_time": "6:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/",
+        "external_link": "http://groov.fm/ch/2017KAMF-NOXX",
         "name": "녹스",
         "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=wfyYh3QEVtw'>Tonight</a>",
         "day": "Day2"
@@ -49,7 +59,7 @@
         "start_time": "6:00 pm",
         "end_time": "7:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/",
+        "external_link": "http://groov.fm/ch/2017KAMF-Romantic_Punch",
         "name": "로맨틱 펀치",
         "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=OsGCxI6l5T8'>몽유병</a>",
         "day": "Day2"
@@ -59,7 +69,7 @@
         "start_time": "7:00 pm",
         "end_time": "8:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/",
+        "external_link": "http://groov.fm/ch/2017KAMF-NELL",
         "name": "넬",
         "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=83IfZhO4Pd0'>기억을 걷는 시간</a>",
         "day": "Day2"
@@ -69,7 +79,7 @@
         "start_time": "8:00 pm",
         "end_time": "9:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/",
+        "external_link": "http://groov.fm/ch/KAMF2017-Crying-Nut",
         "name": "크라잉넛",
         "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=RgLerhyQtYM'>말달리자</a>",
         "day": "Day2"
