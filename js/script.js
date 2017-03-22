@@ -15,6 +15,26 @@
         "day": "Day1"
     },{
         "schedules_image": "images/schedule.jpeg",
+        "artists_image": "images/artists/3.jpeg",
+        "start_time": "7:00 pm",
+        "end_time": "8:00 pm",
+        "location": "중앙무대",
+        "external_link": "http://groov.fm/",
+        "name": "더 베인",
+        "hit_song" : "hit_song",
+        "day": "Day1"
+    },{
+        "schedules_image": "images/schedule.jpeg",
+        "artists_image": "images/artists/4.jpeg",
+        "start_time": "8:00 pm",
+        "end_time": "9:00 pm",
+        "location": "중앙무대",
+        "external_link": "http://groov.fm/",
+        "name": "볼빨간 사춘기",
+        "hit_song" : "hit_song",
+        "day": "Day1"
+    },{
+        "schedules_image": "images/schedule.jpeg",
         "artists_image": "images/artists/5.jpeg",
         "start_time": "5:00 pm",
         "end_time": "6:00 pm",
