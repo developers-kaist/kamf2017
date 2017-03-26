@@ -9,7 +9,7 @@
         "start_time": "5:00 pm",
         "end_time": "6:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/ch/KAMF2017-Adios-audio",
+        "external_link": "http://groov.fm/ch/2017kamf-Adios_Audio",
         "name": "아디오스오디오",
         "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=9qnyGaT9gv8'>밤밤밤</a>",
         "day": "Day1"
@@ -29,7 +29,7 @@
         "start_time": "7:00 pm",
         "end_time": "8:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/ch/KAMF2017-The-VANE",
+        "external_link": "http://groov.fm/ch/2017kamf-The_VANE",
         "name": "더 베인",
         "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=V80zsb8Az9Y'>Identity</a>",
         "day": "Day1"
@@ -39,7 +39,7 @@
         "start_time": "8:00 pm",
         "end_time": "9:00 pm",
         "location": "중앙무대",
-        "external_link": "http://groov.fm/ch/KAMF2017-Bolbbalgan4",
+        "external_link": "http://groov.fm/ch/2017kamf-BOLSA",
         "name": "볼빨간 사춘기",
         "hit_song" : "<a target='_blank' href='https://www.youtube.com/watch?v=9U8uA702xrE'>우주를 줄게</a>",
         "day": "Day1"
